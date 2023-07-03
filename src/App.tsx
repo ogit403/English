@@ -52,13 +52,15 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center items-center">
+    
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+       <div>
       <div style={{
         width: '60vw',
         position: 'relative',
       }}>
         
-        <h1 style={{ fontSize: 40, marginBottom: 0 }}>{ !done ? data[random].paragraph_vietnamese : 'Đã hoàn thành tất cả các câu' }</h1>
+        <h1 style={{ fontSize: 40, marginBottom: 0, marginTop: 0 }}>{ !done ? data[random].paragraph_vietnamese : 'Đã hoàn thành tất cả các câu' }</h1>
         
         {
           done && (
@@ -88,12 +90,13 @@ function App() {
         {
           !done && (
             <>
-              <p style={{ marginTop: 10 }}>Keyword: <span style={{ fontWeight: 700 }}>{data[random].keyword}</span>
+              <p style={{ marginTop: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Keyword: <span style={{ fontWeight: 700, marginLeft: 10 }}>{data[random].keyword}</span>
+              <img onClick={() => handleSound(data[random].keyword)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/sound.png" />
         {
           !show && (
             <button onClick={() => setShow(true)} style={{
           fontSize: 12,
-          marginLeft: 4,
+          marginLeft: 15,
           background: '#6ef36e',
           color: 'white',
           padding: '5px 10px'
@@ -101,31 +104,37 @@ function App() {
           )
         }
           {
-            show && <span style={{ marginLeft: 4, color: 'green', fontSize: 12 }}>({data[random].translate})</span>
+            show && <span style={{ marginLeft: 15, color: 'green', fontSize: 12 }}>({data[random].translate})</span>
           }
         </p>
-        <form>
+        <form style={{ position: 'relative', marginTop: 100, }}>
+          
           <input 
             style={{
-              border: 'none',
-              borderBottom: '1px solid grey',
+              borderWidth: '0px 0px 1px 0px',
+              borderStyle: 'solid',
+              borderImageSlice: 1,
+              borderImageSource: 'linear-gradient(to right, rgb(104, 40, 250), rgb(255, 186, 164))',
               paddingBottom: '10px',
-              paddingLeft: '10px',
+              paddingLeft: '15px',
               width: '100%',
               color: '#333',
               fontWeight: '500',
               fontSize: '16px',
-              fontFamily: 'Comfortaa'
+              fontFamily: 'Comfortaa',
+              backgroundColor: 'rgb(255 253 250)'
             }}
-            placeholder="Type"
+            id="input"
+            placeholder=""
             onChange={(e) => setValue(e.target.value)}
             className="text-[20px]"
             type="text" value={value} />
+            <label htmlFor="input"  style={{ fontWeight: 600, color: '#333', opacity: 0.8, position: 'absolute', left: 15, top: value ? '-25px' :0 }}>Type your word</label>
             {
-              error === 1 && <p style={{ color: 'red', fontSize: 14 }}>Hông đúng òi, thử lại lần nữa nghenn</p>
+              error === 1 && <p style={{ color: 'red', fontSize: 14, marginTop: 20 }}>Hông đúng òi, thử lại lần nữa nghenn</p>
             }
              {
-                  error === 0 && <p style={{ color: 'red', fontSize: 14, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{data[random].paragraph_english}
+                  error === 0 && <p style={{ color: 'red', fontSize: 14, display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>{data[random].paragraph_english}
                 <img onClick={() => handleSound(data[random].paragraph_english)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/sound.png" />
                 <span style={{ color: 'blue', fontSize: 12, marginLeft: 20, cursor: 'pointer', fontWeight: 600 }} onClick={() => navigator.clipboard.writeText(data[random].paragraph_english)}>
                   Copy
@@ -137,7 +146,7 @@ function App() {
             
         </form>
         <div style={{ marginTop: 40, fontWeight: '700' }}>
-          <p>More Information</p>
+          <p style={{ color: '#1473e6', marginBottom: 20 }}>More Information</p>
           {
             data[random].phrases.map((el) => (
               <div style={{
@@ -167,6 +176,7 @@ function App() {
                     width: '50%',
                     textAlign: 'center',
                     fontWeight: '800',
+                    color: 'rgb(121, 121, 121)'
                   }}
                 >{el.content}</div>
               </div>
@@ -187,6 +197,8 @@ function App() {
       </div>
       
     </div>
+    </div>
+   
   )
 }
 
