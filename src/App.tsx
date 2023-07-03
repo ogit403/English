@@ -1,5 +1,5 @@
 /* eslint-disable no-constant-condition */
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import data from './data.json';
 import { toast } from 'react-toastify';
@@ -44,7 +44,7 @@ function App() {
       }
     }
   };
-  
+
 
   return (
     <div className="flex justify-center items-center">
