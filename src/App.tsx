@@ -14,12 +14,14 @@ function App() {
 
   const handleSubmit = () => {
     const newRandom = Math.floor(Math.random() * data.length);
-    if (error !== 0) {
+    if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase()) {
       toast.error('Error')
-      setError(error - 1);
+      if (error !== 0) {
+        setError(error - 1);
+      } 
     }
 
-    if (value === data[random].paragraph_english) {
+    if (value.toLowerCase() === data[random].paragraph_english.toLowerCase()) {
       toast.success('Exactly')
       while (data.length !== arr.length) {
         console.log('random', newRandom);
@@ -28,6 +30,7 @@ function App() {
           setRandom(newRandom)
           setValue('');
           setError(2)
+          setShow(false);
           break;
         }
       }
