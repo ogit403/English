@@ -126,7 +126,7 @@ function App() {
             }
              {
                   error === 0 && <p style={{ color: 'red', fontSize: 14, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{data[random].paragraph_english}
-                <img onClick={() => handleSound(data[random].paragraph_english)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/public/sound.png" />
+                <img onClick={() => handleSound(data[random].paragraph_english)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/sound.png" />
                 <span style={{ color: 'blue', fontSize: 12, marginLeft: 20, cursor: 'pointer', fontWeight: 600 }} onClick={() => navigator.clipboard.writeText(data[random].paragraph_english)}>
                   Copy
                 </span>
@@ -159,7 +159,7 @@ function App() {
                   }}
                 >
                     {el.title}
-                    <img onClick={() => handleSound(el.title)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/public/sound.png" />
+                    <img onClick={() => handleSound(el.title)} style={{ cursor: 'pointer', marginLeft: 5 }} src="/sound.png" />
                     {/* <span  style={{ fontSize: 12, color: 'blue', fontWeight: 600, marginLeft: 5, cursor: 'pointer' }}>Sound</span> */}
                   </div>
                 <div
