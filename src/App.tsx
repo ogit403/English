@@ -9,7 +9,7 @@ function App() {
       <div style={{
         width: '500px',
       }}>
-        <h1 style={{ fontSize: 40, marginBottom: 0 }}>English</h1>
+        <h1 style={{ fontSize: 40, marginBottom: 0 }}>English 1</h1>
         <p style={{ marginTop: 10 }}>Keyword: <span style={{ fontWeight: 700 }}>Board</span></p>
         <form>
           <input 
