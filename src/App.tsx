@@ -82,13 +82,18 @@ function App() {
               color: '#333',
               fontWeight: '500',
               fontSize: '16px',
+              fontFamily: 'Comfortaa'
             }}
             placeholder="Type"
             onChange={(e) => setValue(e.target.value)}
             className="text-[20px]"
             type="text" value={value} />
             {
-              error === 0 && <p style={{ color: 'red' }}>{data[random].paragraph_english}</p>
+              error === 0 && <p style={{ color: 'red' }}>{data[random].paragraph_english}
+              <span style={{ color: 'blue', fontSize: 12, marginLeft: 20, cursor: 'pointer' }} onClick={() => navigator.clipboard.writeText(data[random].paragraph_english)}>
+                Sao chép
+              </span>
+              </p>
             }
             
         </form>
