@@ -1,0 +1,142 @@
+[
+    {
+        "keyword": "sample",
+        "translate": "Ví dụ",
+        "paragraph_english": "Doctors will take a sample of your blood",
+        "paragraph_vietnamese": "Bác sĩ sẽ lấy mẫu máu của chị",
+        "phrases": [
+            {
+                "title": "a sample of something",
+                "content": "một mẫu của một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "movement",
+        "translate": "Phong trào",
+        "paragraph_english": "A social movemoment can signigicantly shape of society",
+        "paragraph_vietnamese": "Một phong trào xã hội có thể ảnh hưởng đáng kể đến một xã hội",
+        "phrases": [
+            {
+                "title": "a social movement",
+                "content": "một phong trào xã hội"
+            },
+            {
+                "title": "signigicantly",
+                "content": "đáng kể"
+            },
+            {
+                "title": "shape of society",
+                "content": "định hình xã hội"
+            }
+        ]
+    },
+    {
+        "keyword": "revolution",
+        "translate": "Cuộc cách mạng",
+        "paragraph_english": "The activists started a revolution",
+        "paragraph_vietnamese": "Những nhà hoạt động xã hội đã bắt đầu một cuộc cách mạng",
+        "phrases": [
+            {
+                "title": "start a revolution",
+                "content": "bắt đầu một cuộc cách mạng"
+            },
+            {
+                "title": "the activists",
+                "content": "các nhà hoạt động"
+            }
+        ]
+    },
+    {
+        "keyword": "section",
+        "translate": "Phần",
+        "paragraph_english": "This section of the book is interesting",
+        "paragraph_vietnamese": "Phần này của cuốn sách rất thú vị",
+        "phrases": [
+            {
+                "title": "a section of something",
+                "content": "một phần của một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "massive",
+        "translate": "Ồ ạt",
+        "paragraph_english": "The army launched a massive attack on the enemy",
+        "paragraph_vietnamese": "Phần này của cuốn sách rất thú vị",
+        "phrases": [
+            {
+                "title": "a massive attack",
+                "content": "cuộc tấn công lớn"
+            },
+            {
+                "title": "launched",
+                "content": "phát động, tung ra"
+            }
+        ]
+    },
+    {
+        "keyword": "occur",
+        "translate": "Hiệp hội",
+        "paragraph_english": "Earthquakes occur frequently in Japan",
+        "paragraph_vietnamese": "Động đất xảy ra thường xuyên ở Nhật Bản",
+        "phrases": [
+            {
+                "title": "occur frequently",
+                "content": "xảy ra thường xuyên"
+            }
+        ]
+    },
+    {
+        "keyword": "powerful",
+        "translate": "Mạng mẽ",
+        "paragraph_english": "The speaker had a powerful voice",
+        "paragraph_vietnamese": "Diễn giả có một giọng nói đầy uy lực",
+        "phrases": [
+            {
+                "title": "a powerful voice",
+                "content": "một giọng nói đầy uy lực"
+            }
+        ]
+    },
+    {
+        "keyword": "union",
+        "translate": "Hiệp hội",
+        "paragraph_english": "You can join a labor union",
+        "paragraph_vietnamese": "Cậu có thể tham gia công đoàn",
+        "phrases": [
+            {
+                "title": "labor union",
+                "content": "công đoàn"
+            }
+        ]
+    },
+    {
+        "keyword": "rescue",
+        "translate": "Giải cứu",
+        "paragraph_english": "The koala was rescued from the fire",
+        "paragraph_vietnamese": "Chú gấu túi được giải cứu khỏi đám cháy",
+        "phrases": [
+            {
+                "title": "rescue from something",
+                "content": "giải cứu khỏi cái gì"
+            },
+            {
+                "title": "koala",
+                "content": "gấu túi"
+            }
+        ]
+    },
+    {
+        "keyword": "force",
+        "translate": "Bắt buộc",
+        "paragraph_english": "They forced me to clean the dishes",
+        "paragraph_vietnamese": "Họ bắt buộc tôi phải rửa bát",
+        "phrases": [
+            {
+                "title": "force something or someone",
+                "content": "bắt buộc cái gì đó hoặc ai đó"
+            }
+        ]
+    }
+]
