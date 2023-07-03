@@ -1,11 +1,12 @@
 /* eslint-disable no-constant-condition */
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import data from './data.json';
 import { toast } from 'react-toastify';
 
 function App() {
   const [arr, setArr] = useState<number[]>([]);
+  const [done, setDone] = useState(false);
   const [value, setValue] = useState('')
   const [show, setShow] = useState(false);
   const [error, setError] = useState(2);
@@ -13,7 +14,7 @@ function App() {
 
 
   const handleSubmit = () => {
-    const newRandom = Math.floor(Math.random() * data.length);
+    let newRandom = Math.floor(Math.random() * data.length);
     if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase()) {
       toast.error('Error')
       if (error !== 0) {
@@ -23,7 +24,12 @@ function App() {
 
     if (value.toLowerCase() === data[random].paragraph_english.toLowerCase()) {
       toast.success('Exactly')
-      while (data.length !== arr.length) {
+      console.log('data', data, 'arr', arr);
+      if (data.length - 1 === arr.length) {
+        setDone(true);
+      }
+      
+      while (data.length !== arr.length && newRandom !== random) {
         console.log('random', newRandom);
         if (newRandom !== random && !arr.includes(newRandom)) {
           setArr([ ...arr, newRandom ])
@@ -32,6 +38,8 @@ function App() {
           setError(2)
           setShow(false);
           break;
+        } else {
+          newRandom = Math.floor(Math.random() * data.length);
         }
       }
     }
@@ -42,8 +50,11 @@ function App() {
       <div style={{
         width: '60vw',
       }}>
-        <h1 style={{ fontSize: 40, marginBottom: 0 }}>{data[random].paragraph_vietnamese}</h1>
-        <p style={{ marginTop: 10 }}>Keyword: <span style={{ fontWeight: 700 }}>{data[random].keyword}</span>
+        <h1 style={{ fontSize: 40, marginBottom: 0 }}>{ !done ? data[random].paragraph_vietnamese : 'Đã hoàn thành tất cả các câu' }</h1>
+        {
+          !done && (
+            <>
+              <p style={{ marginTop: 10 }}>Keyword: <span style={{ fontWeight: 700 }}>{data[random].keyword}</span>
         {
           !show && (
             <button onClick={() => setShow(true)} style={{
@@ -112,13 +123,19 @@ function App() {
             ))
           }
         </div>
-      </div>
-      <div style={{paddingTop: 60}}>
+        <div style={{paddingTop: 60}}>
         <button onClick={handleSubmit} style={{
           background: 'green',
           color: 'white',
         }}>Submit</button>
       </div>
+            </>
+          )
+        }
+
+        
+      </div>
+      
     </div>
   )
 }
