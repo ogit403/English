@@ -9,7 +9,6 @@ import { useQuery } from '@apollo/client';
 function App() {
     const { changeValue, data, handleReset, main, nextNumber } = useAction();
     const { arr, done, error, loading, random, value, show } = main;
-
  
     const results = useQuery(GetUsersDocument);
     console.log('results 123', results);
