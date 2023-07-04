@@ -18,8 +18,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "src",
+    "paths": {
+      "@*": ["*"]
+    }
   },
-  "include": ["src"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/**/*.ts", "**/*.tsx", "**/**/*.tsx", "tailwind.config.js", "next.config.js", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

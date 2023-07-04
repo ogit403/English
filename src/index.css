@@ -216,6 +216,7 @@ input + label {
 	cursor: pointer;
 }
 
-input:focus + label, input {
+input:focus + label {
 	top: -25px !important;
+	color: #1473e6 !important
 }
