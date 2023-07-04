@@ -10,7 +10,7 @@ const MoreInformation = ({ data }: MoreInformationProps) => {
             <p className="text-[#1473e6] mb-[20px]">More Information</p>
             {
                 data.map((el: Information) => (
-                    <div className="flex items-center mb-[10px]">
+                    <div key={el.title} className="flex items-center mb-[10px]">
                         <div className="pl-[10px] w-1/2 text-[#333] font-[700] text-[16px] text-center flex items-center justify-center">
                             {el.title}
                             <Sound content={el.title} />

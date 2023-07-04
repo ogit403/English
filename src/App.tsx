@@ -10,8 +10,10 @@ function App() {
 
 
     const handleSubmit = () => {
-        if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase() && error !== 0) {
-            changeValue({ error: error - 1 });
+        if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase()) {
+            if (error !== 0) {
+                changeValue({ error: error - 1 });
+            }
             return;
         }
         if (data.length - 1 === arr.length) {
@@ -51,7 +53,7 @@ function App() {
                         !done && (
                             <>
                                 <TitleHomePage changeValue={changeValue} keyword={data[random].keyword} show={show} translate={data[random].translate} />
-                                <FormHomePage changeValue={changeValue} error={error} paragraph_english={data[random].paragraph_english} value={value} />
+                                <FormHomePage handleSubmit={handleSubmit} changeValue={changeValue} error={error} paragraph_english={data[random].paragraph_english} value={value} />
                                 <MoreInformationHomePage data={data[random].phrases} />
                                 <div className="pt-[60px]">
                                     <button disabled={loading} className="bg-[green] text-[white]" onClick={handleSubmit}>Submit</button>
