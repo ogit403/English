@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { ToastContainer } from 'react-toastify'
-import { createClient, Provider } from 'urql';
 import 'react-toastify/dist/ReactToastify.css';
-//  
-const client = createClient({
-  url: import.meta.env.VITE_API_URL || 'https://graphql-ymec.onrender.com/',
-  exchanges: []
+import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://graphql-ymec.onrender.com/graphql',
+  cache: new InMemoryCache(),
 });
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -25,9 +25,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       pauseOnHover
       theme="light"
     />
-      <Provider value={client}>
+    <ApolloProvider client={client}>
         <App />
-      </Provider>
+    </ApolloProvider>
     <ToastContainer />
   </React.StrictMode>,
 )
