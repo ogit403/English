@@ -5,15 +5,13 @@ import Loading from '@common/Loading';
 import { FormHomePage, MoreInformationHomePage, TitleHomePage } from '@libs/HomePage/components';
 import { GetUsersDocument } from './graphql/generated'
 import { useQuery } from '@apollo/client';
+import Create from '@libs/Create';
 
 function App() {
     const { changeValue, data, handleReset, main, nextNumber } = useAction();
     const { arr, done, error, loading, random, value, show } = main;
  
     const results = useQuery(GetUsersDocument);
-    console.log('results 123', results);
-
-    
 
     const handleSubmit = () => {
         if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase()) {
@@ -44,6 +42,7 @@ function App() {
 
     return (
         <div className="flex items-center justify-center h-[100vh]">
+            <Create />
             <div>
                 <div className="w-[60vw] relative">
                     <h1 className="text-[40px] mb-0 mt-0">{!done ? data[random].paragraph_vietnamese : 'Đã hoàn thành tất cả các câu'}</h1>

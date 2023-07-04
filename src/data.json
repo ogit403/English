@@ -138,5 +138,141 @@
                 "content": "bắt buộc cái gì đó hoặc ai đó"
             }
         ]
+    },
+    {
+        "keyword": "exist",
+        "translate": "tồn tại",
+        "paragraph_english": "Tree exist to provide oxygen",
+        "paragraph_vietnamese": "Cây tồn tại để cung cấp khí oxy",
+        "phrases": [
+            {
+                "title": "exist to do something",
+                "content": "tồn tại để làm một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "campaign",
+        "translate": "Chiến dịch",
+        "paragraph_english": "We should start a campaign to save animals",
+        "paragraph_vietnamese": "Chúng ta nên bắt đầu một chiến dịch để cứu lấy các loài vật",
+        "phrases": [
+            {
+                "title": "a campaign to do something",
+                "content": "Một chiến dịch để làm cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "election",
+        "translate": "Cuộc bầu cử",
+        "paragraph_english": "Citizens can vote at the national election",
+        "paragraph_vietnamese": "Công dân có thể bỏ phiếu trong cuộc bầu cử toàn quốc",
+        "phrases": [
+            {
+                "title": "national election",
+                "content": "Cuộc bầu cử toàn quốc"
+            },
+            {
+                "title": "citizen",
+                "content": "Công dân"
+            }
+        ]
+    },
+    {
+        "keyword": "soldier",
+        "translate": "Người lính",
+        "paragraph_english": "There are soldiers on duty around the embassy",
+        "paragraph_vietnamese": "Có nhiều người lính đang làm nhiện vụ xung quanh đại sứ quán",
+        "phrases": [
+            {
+                "title": "a soldier on duty",
+                "content": "một người lính đang làm nhiệm vụ"
+            },
+            {
+                "title": "embassy",
+                "content": "đại sứ quán"
+            }
+        ]
+    },
+    {
+        "keyword": "vote",
+        "translate": "bầu chọn",
+        "paragraph_english": "I voted for the new president",
+        "paragraph_vietnamese": "Tôi đã bầu chọn cho tổng thống mới",
+        "phrases": [
+            {
+                "title": "vote for somebody",
+                "content": "bầu chọn cho ai đó"
+            }
+        ]
+    },
+    {
+        "keyword": "army",
+        "translate": "quân đội",
+        "paragraph_english": "My brother is in the army",
+        "paragraph_vietnamese": "Em trai tôi ở trong quân đội",
+        "phrases": [
+            {
+                "title": "in the army",
+                "content": "trong quân đội"
+            }
+        ]
+    },
+    {
+        "keyword": "politics",
+        "translate": "chính trị",
+        "paragraph_english": "Employees should avoid office politics",
+        "paragraph_vietnamese": "Nhân viên nên tránh chính trị công sở",
+        "phrases": [
+            {
+                "title": "office politics",
+                "content": "chính trị công sở"
+            }
+        ]
+    },
+    {
+        "keyword": "medal",
+        "translate": "huân chương",
+        "paragraph_english": "She was given a Medal of Honor",
+        "paragraph_vietnamese": "Cô ấy được trao một huân chương danh dự",
+        "phrases": [
+            {
+                "title": "a Medal of Honor",
+                "content": "một huân chương danh dự"
+            }
+        ]
+    },
+    {
+        "keyword": "president",
+        "translate": "tổng thống",
+        "paragraph_english": "He is serving as acting president of the country",
+        "paragraph_vietnamese": "Ông ấy đang đảm nhiệm chức vụ quyền tổng thống của đất nước",
+        "phrases": [
+            {
+                "title": "an acting president",
+                "content": "quyền tổng thống"
+            },
+            {
+                "title": "serving",
+                "content": "phục vụ, đảm nhận"
+            },
+            {
+                "title": "the country",
+                "content": "đất nước"
+            }
+        ]
+    },
+    {
+        "keyword": "pilot",
+        "translate": "phi công",
+        "paragraph_english": "I am studying to be an airline pilot",
+        "paragraph_vietnamese": "Tôi đang học làm phi công",
+        "phrases": [
+            {
+                "title": "an airline pilot",
+                "content": "một phi công hàng không"
+            }
+        ]
     }
 ]
