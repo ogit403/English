@@ -3,11 +3,22 @@ import './App.css'
 import useAction from '@libs/HomePage/hooks/useAction';
 import Loading from '@common/Loading';
 import { FormHomePage, MoreInformationHomePage, TitleHomePage } from '@libs/HomePage/components';
+import { User } from '@types';
+import { useQuery } from 'urql'
+import { GetUsersDocument } from './graphql/generated'
+interface AppProps {
+    user: User
+}
 
 function App() {
     const { changeValue, data, handleReset, main, nextNumber } = useAction();
     const { arr, done, error, loading, random, value, show } = main;
 
+    const [results] = useQuery({
+        query: GetUsersDocument
+    })
+
+    console.log('results', results);
 
     const handleSubmit = () => {
         if (value.toLowerCase() !== data[random].paragraph_english.toLowerCase()) {
