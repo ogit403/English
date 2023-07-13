@@ -9,7 +9,12 @@ interface FormMainProps {
 }
 
 const FormMain = ({ changeValue, error, paragraph_english, value, handleSubmit }: FormMainProps) => (
-    <div className="relative mt-[100px]" style={{ position: 'relative', marginTop: 100, }}>
+    <>
+        {/* <div className="mb-8">
+        <Sound content={paragraph_english} />
+        </div> */}
+        <div className="relative mt-[50px]" style={{ position: 'relative', marginTop: 100, }}>
+        
         <input
             autoComplete="off"
             className="w-full color-[#333] font-[500] text-[18px] pl-[15px] pb-[10px] border-solid"
@@ -43,6 +48,7 @@ const FormMain = ({ changeValue, error, paragraph_english, value, handleSubmit }
             ))
         }</p>
     </div>
+    </>
 );
 
 export default FormMain;

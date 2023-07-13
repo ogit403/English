@@ -3,37 +3,18 @@ import data from '../../../data.json';
 
 
 const useAction = () => {
+    let items: Data[] = data.sort( () => Math.random() - 0.5)
+    const [index, setIndex] = useState(0);
     const [main, setMain] = useState<HomePage>({
-        arr: [],
-        done: false,
         error: 2,
         loading: false,
-        random: Math.floor(Math.random() * data.length),
-        value: '',
         show: false,
+        value: '',
     })
 
-    const nextNumber = (value?: Partial<HomePage>) => {
-        setMain((prev) => ({
-            ...prev,
-            ...value,
-            error: 2,
-            loading: false,
-            value: '',
-            show: false,
-        }))
-    }
-
     const handleReset = () => {
-        setMain({
-            arr: [],
-            done: false,
-            error: 2,
-            loading: false,
-            random: Math.floor(Math.random() * data.length),
-            value: '',
-            show: false,
-        })
+        items = data.sort( () => Math.random() - 0.5);
+        setIndex(0);
     }
 
     const changeValue = (value: Partial<HomePage> ) => {
@@ -43,7 +24,9 @@ const useAction = () => {
     return {
         data,
         main,
-        nextNumber,
+        index,
+        items,
+        setIndex,
         handleReset,
         changeValue,
     }

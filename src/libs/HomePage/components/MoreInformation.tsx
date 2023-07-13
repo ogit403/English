@@ -7,7 +7,9 @@ interface MoreInformationProps {
 const MoreInformation = ({ data }: MoreInformationProps) => {
     return (
         <div className="mt-[40px] font-[700]">
-            <p className="text-[#1473e6] mb-[20px]">More Information</p>
+            <p className="text-[#1473e6] mb-[20px]">
+                More Information
+            </p>
             {
                 data.map((el: Information) => (
                     <div key={el.title} className="flex items-center mb-[10px]">

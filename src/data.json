@@ -274,5 +274,534 @@
                 "content": "một phi công hàng không"
             }
         ]
+    },
+    {
+        "keyword": "magazine",
+        "translate": "tạp chí",
+        "paragraph_english": "Online magazine are convenient to read",
+        "paragraph_vietnamese": "Tạp chí điện tử rất tiện lợi",
+        "phrases": [
+            {
+                "title": "online magazine",
+                "content": "tạp chí điện tử"
+            }
+        ]
+    },
+    {
+        "keyword": "species",
+        "translate": "loài động vật",
+        "paragraph_english": "Many fish species are in the ocean",
+        "paragraph_vietnamese": "Rất nhiều loại cá sống ở đại dương",
+        "phrases": [
+            {
+                "title": "fish species",
+                "content": "loài cá"
+            },
+            {
+                "title": "ocean",
+                "content": "đại dương"
+            }
+        ]
+    },
+    {
+        "keyword": "extinction",
+        "translate": "sự tuyệt chủng",
+        "paragraph_english": "Tigers are on the verge of extinction",
+        "paragraph_vietnamese": "Loài hổ đang trên bờ vực tuyệt chủng",
+        "phrases": [
+            {
+                "title": "on the verge of extinction",
+                "content": "trên bờ vực tuyệt chủng"
+            }
+        ]
+    },
+    {
+        "keyword": "planet",
+        "translate": "hành tinh",
+        "paragraph_english": "The planet Earth is warming up",
+        "paragraph_vietnamese": "Hành tinh Trái Đất đang ấm dần lên",
+        "phrases": [
+            {
+                "title": "the planet Earth",
+                "content": "hành tinh Trái Đất"
+            },
+            {
+                "title": "warming up",
+                "content": "làm nóng lên"
+            }
+        ]
+    },
+    {
+        "keyword": "donate",
+        "translate": "quyên góp",
+        "paragraph_english": "Will you donate money to charity?",
+        "paragraph_vietnamese": "Cậu sẽ quyên góp tiền để làm từ thiện chứ?",
+        "phrases": [
+            {
+                "title": "donate sth to sb or sth",
+                "content": "quyên góp cái gì đó cho ai hoặc cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "organization",
+        "translate": "tổ chức",
+        "paragraph_english": "The WHO is an international organization",
+        "paragraph_vietnamese": "Tổ chức Y tế Thế giới (WHO) là một tổ chức quốc tế",
+        "phrases": [
+            {
+                "title": "international organization",
+                "content": "tổ chức quốc tế"
+            }
+        ]
+    },
+    {
+        "keyword": "population",
+        "translate": "dân số",
+        "paragraph_english": "The working population is increasing each year",
+        "paragraph_vietnamese": "Số người lao động đang tăng lên mỗi năm",
+        "phrases": [
+            {
+                "title": "working population",
+                "content": "số người lao động"
+            },
+            {
+                "title": "each year",
+                "content": "mỗi năm"
+            }
+        ]
+    },
+    {
+        "keyword": "climate",
+        "translate": "khí hậu",
+        "paragraph_english": "Dalat is famous for its mild climate",
+        "paragraph_vietnamese": "Đà Lạt nổi tiếng với khí hậu ôn hoà",
+        "phrases": [
+            {
+                "title": "mild climate",
+                "content": "khí hậu ôn hoà"
+            }
+        ]
+    },
+    {
+        "keyword": "sewage",
+        "translate": "nước thải",
+        "paragraph_english": "Raw sewage is dangerous to human health",
+        "paragraph_vietnamese": "Nước thải chưa qua xử lý rất nguy hiểm với sức khoẻ con người",
+        "phrases": [
+            {
+                "title": "raw sewage",
+                "content": "nước thải chưa qua xử lý"
+            }
+        ]
+    },
+    {
+        "keyword": "conservation",
+        "translate": "sự bảo tồn",
+        "paragraph_english": "Wildlife conservation is necessary to save animals",
+        "paragraph_vietnamese": "Bảo tồn động vật hoang dã là cần thiết để cứu lấy các loài động vật",
+        "phrases": [
+            {
+                "title": "wildlife conservation",
+                "content": "bảo tồn động vật hoang dã"
+            }
+        ]
+    },
+    {
+        "keyword": "spread",
+        "translate": "lan truyền",
+        "paragraph_english": "He spreads the word about her promotion",
+        "paragraph_vietnamese": "Anh ta loan tin về việc cô ấy được thăng chức",
+        "phrases": [
+            {
+                "title": "spread the word",
+                "content": "loan tin"
+            },
+            {
+                "title": "promotion",
+                "content": "thăng chức"
+            }
+        ]
+    },
+    {
+        "keyword": "abuse",
+        "translate": "bạo hành",
+        "paragraph_english": "Be careful not to abuse alcohol",
+        "paragraph_vietnamese": "Hãy cẩn thận để không lạm dụng ruợu",
+        "phrases": [
+            {
+                "title": "abuse alcohol",
+                "content": "lạm dụng rượu"
+            }
+        ]
+    },
+    {
+        "keyword": "government",
+        "translate": "chính phủ",
+        "paragraph_english": "There will be a high-level meeting among government officials",
+        "paragraph_vietnamese": "Sắp diễn ra một cuộc họp cấp cao giữa các quan chức chính phủ",
+        "phrases": [
+            {
+                "title": "a government official",
+                "content": "quan chức chính phủ"
+            },
+            {
+                "title": "high-level",
+                "content": "cấp cao"
+            }
+        ]
+    },
+    {
+        "keyword": "law",
+        "translate": "luật",
+        "paragraph_english": "What is the law on drinking age?",
+        "paragraph_vietnamese": "Luật về độ tuổi uống rượu bia như thế nào?",
+        "phrases": [
+            {
+                "title": "law on something",
+                "content": "luật về cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "rapid",
+        "translate": "nhanh chóng",
+        "paragraph_english": "The company is experiencing a rapid growth",
+        "paragraph_vietnamese": "Công ty này đang có một sự tăng trưởng nhanh chóng",
+        "phrases": [
+            {
+                "title": "rapid growth",
+                "content": "sự tăng trưởng nhanh chóng"
+            }
+        ]
+    },
+    {
+        "keyword": "legal",
+        "translate": "theo pháp lụât",
+        "paragraph_english": "We rely on the legal system for justive",
+        "paragraph_vietnamese": "Chúng ta dựa vào hệ thống luật pháp để duy trì công lý",
+        "phrases": [
+            {
+                "title": "the legal system",
+                "content": "hệ thống pháp luật"
+            },
+            {
+                "title": "rely",
+                "content": "phụ thuộc, dụa vào"
+            }
+        ]
+    },
+    {
+        "keyword": "ultimate",
+        "translate": "sau cùng",
+        "paragraph_english": "Having a meaningful life is the ultimate target",
+        "paragraph_vietnamese": "Sống một cuộc đời có ý nghĩa là mục tiêu cuối cùng",
+        "phrases": [
+            {
+                "title": "ultimate target",
+                "content": "mục tiêu cuối cùng"
+            }
+        ]
+    },
+    {
+        "keyword": "poverty",
+        "translate": "cảnh nghèo nàn",
+        "paragraph_english": "Some countries have extreme poverty",
+        "paragraph_vietnamese": "Một số quốc gia đang gặp phải tình trạng nghèo đói cùng cực",
+        "phrases": [
+            {
+                "title": "extreme poverty",
+                "content": "tình trạng nghèo đói cùng cực"
+            }
+        ]
+    },
+    {
+        "keyword": "divorce",
+        "translate": "ly dị",
+        "paragraph_english": "In the past, wives of kings could never divorce their husbands",
+        "paragraph_vietnamese": "Thời xưa, vợ của nhà vua không được phép ly dị chồng",
+        "phrases": [
+            {
+                "title": "divorce someone",
+                "content": "ly dị ai đó"
+            }
+        ]
+    },
+    {
+        "keyword": "murder",
+        "translate": "giết người",
+        "paragraph_english": "The detective found out who murdered the victim",
+        "paragraph_vietnamese": "Vị thám tử đã tìm ra ai là kẻ đã giết nạn nhân",
+        "phrases": [
+            {
+                "title": "murder somebody",
+                "content": "giết ai đó"
+            },
+            {
+                "title": "detective",
+                "content": "thám tử"
+            }
+        ]
+    },
+    {
+        "keyword": "court",
+        "translate": "toà án",
+        "paragraph_english": "He can be a witness in a civil court case",
+        "paragraph_vietnamese": "Anh ấy có thể làm nhân chứng cho một vụ án dân sự",
+        "phrases": [
+            {
+                "title": "a civil court case",
+                "content": "vụ án dân sự"
+            }
+        ]
+    },
+    {
+        "keyword": "case",
+        "translate": "trường hợp",
+        "paragraph_english": "In case of emergency, here is my number",
+        "paragraph_vietnamese": "Trong trường hợp khẩn cấp, đây là số của tôi",
+        "phrases": [
+            {
+                "title": "in case of something",
+                "content": "trong truờng hợp nào đó"
+            }
+        ]
+    },
+    {
+        "keyword": "evidence",
+        "translate": "bằng chứng",
+        "paragraph_english": "Scientists are looking for evidence of life on other planets",
+        "paragraph_vietnamese": "Các nhà khoa học đang tìm bằng chứng về sự sống trên các hành tinh khác",
+        "phrases": [
+            {
+                "title": "evidence of something",
+                "content": "bằng chứng của một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "presence",
+        "translate": "sự có mặt",
+        "paragraph_english": "In the presence of her, I feel sale",
+        "paragraph_vietnamese": "Khi có mặt cô ấy, tôi cảm thấy an toàn",
+        "phrases": [
+            {
+                "title": "in the presence of sth or sb",
+                "content": "khi có cái gì hoặc có mặt ai"
+            }
+        ]
+    },
+    {
+        "keyword": "seek",
+        "translate": "tìm kiếm",
+        "paragraph_english": "Make sure you seek help if you feel overwhelmed",
+        "paragraph_vietnamese": "Nhất định phải tìm kiếm sự giúp đỡ nếu cậu cảm thấy quá tải",
+        "phrases": [
+            {
+                "title": "seek something or somebody",
+                "content": "tìm kiếm một cái gì đó hoặc ai đó"
+            },
+            {
+                "title": "overwhelmed",
+                "content": "choáng ngợp, quá tải"
+            }
+        ]
+    },
+    {
+        "keyword": "security",
+        "translate": "an ninh",
+        "paragraph_english": "National security is a duty of government",
+        "paragraph_vietnamese": "An nih quốc gia là nhiệm vụ của chính phủ",
+        "phrases": [
+            {
+                "title": "national security",
+                "content": "an ninh quốc gia"
+            }
+        ]
+    },
+    {
+        "keyword": "cruel",
+        "translate": "độc ác",
+        "paragraph_english": "I am sorry that I was cruel to you",
+        "paragraph_vietnamese": "",
+        "phrases": [
+            {
+                "title": "to be cruel to sb or sth",
+                "content": "đối xử tàn nhẫn với ai đó hoặc cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "liberty",
+        "translate": "sự tự do",
+        "paragraph_english": "Citizens have the liberty to voice concerns",
+        "paragraph_vietnamese": "Công dân có quyền tự do nói lên những e ngại của mình",
+        "phrases": [
+            {
+                "title": "liberty to do something",
+                "content": "tự do làm một cái gì đó"
+            },
+            {
+                "title": "concern",
+                "content": "e ngại, lo lắng"
+            }
+        ]
+    },
+    {
+        "keyword": "attack",
+        "translate": "tấn công",
+        "paragraph_english": "The burglar attacked the civilian",
+        "paragraph_vietnamese": "Tên trộm tấn công người dân",
+        "phrases": [
+            {
+                "title": "attack somebody",
+                "content": "tấn công ai đó"
+            },
+            {
+                "title": "burglar",
+                "content": "tên trộm, kẻ trộm"
+            },
+            {
+                "title": "civilian",
+                "content": "người dân"
+            }
+        ]
+    },
+    {
+        "keyword": "violent",
+        "translate": "bạo lực",
+        "paragraph_english": "We don't have to be violent towards one another",
+        "paragraph_vietnamese": "Chúng ta không cần phải bạo lực với nhau",
+        "phrases": [
+            {
+                "title": "violent towards or to somebody",
+                "content": "bạo lực với ai đó"
+            },
+            {
+                "title": "one another",
+                "content": "lẫn nhau, với nhau"
+            }
+        ]
+    },
+    {
+        "keyword": "prison",
+        "translate": "nhà tù",
+        "paragraph_english": "He will be in prison for murder",
+        "paragraph_vietnamese": "Hắn sẽ phải vào tù vì tội giết người",
+        "phrases": [
+            {
+                "title": "in prison for doing something",
+                "content": "phải vào tù vì tội gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "escape",
+        "translate": "trốn thoát",
+        "paragraph_english": "She must escape from him",
+        "paragraph_vietnamese": "Cô ấy phải thoát khỏi hắn ta",
+        "phrases": [
+            {
+                "title": "escape from somebody or something",
+                "content": "trốn khỏi ai đó hoặc cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "break into",
+        "translate": "đột nhập",
+        "paragraph_english": "Someone brake into my house",
+        "paragraph_vietnamese": "Ai đó đã đột nhập vào nhà tôi",
+        "phrases": [
+            {
+                "title": "break into something",
+                "content": "đột nhập vào một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "chase",
+        "translate": "đuổi theo",
+        "paragraph_english": "Cats chase mice",
+        "paragraph_vietnamese": "Mèo thường đuổi theo chuột",
+        "phrases": [
+            {
+                "title": "chase somebody or something",
+                "content": "đuổi theo ai đó hoặc cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "hide",
+        "translate": "che giấu",
+        "paragraph_english": "They hide their money throughout the house",
+        "paragraph_vietnamese": "Họ giấu tiền ở khắp nhà",
+        "phrases": [
+            {
+                "title": "hide somebody or something",
+                "content": "che giấu ai đó hoặc cái gì đó"
+            },
+            {
+                "title": "throughout the house",
+                "content": "khắp nhà"
+            }
+        ]
+    },
+    {
+        "keyword": "criminal",
+        "translate": "tội phạm",
+        "paragraph_english": "The convicted criminal pleaded guilty",
+        "paragraph_vietnamese": "Tên tội phạm bị kết án đã nhận tội",
+        "phrases": [
+            {
+                "title": "convicted criminal",
+                "content": "tội phạm bị kết tội"
+            },
+            {
+                "title": "pleaded guilty",
+                "content": "đã nhận tội"
+            }
+        ]
+    },
+    {
+        "keyword": "victim",
+        "translate": "nạn nhân",
+        "paragraph_english": "He is a victim of his own greed",
+        "paragraph_vietnamese": "Anh ta là nạn nhân của lòng tham của chính mình",
+        "phrases": [
+            {
+                "title": "a victim of something",
+                "content": "một nạn nhân của một cái gì đó"
+            },
+            {
+                "title": "greed",
+                "content": "tham lam"
+            }
+        ]
+    },
+    {
+        "keyword": "lawyer",
+        "translate": "luật sư",
+        "paragraph_english": "He needs to hire a criminal lawyer",
+        "paragraph_vietnamese": "Anh ấy cần thuê một luật sư hình sự",
+        "phrases": [
+            {
+                "title": "a criminal lawyer",
+                "content": "một luật sư hình sự"
+            }
+        ]
+    },
+    {
+        "keyword": "guilty",
+        "translate": "có tội",
+        "paragraph_english": "I feel guilty about lying to you",
+        "paragraph_vietnamese": "Tớ cảm thấy có lội vì nói dối cậu",
+        "phrases": [
+            {
+                "title": "guilty about doing something",
+                "content": "có lỗi vì làm gì đó"
+            }
+        ]
     }
 ]
+
