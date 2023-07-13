@@ -1,5 +1,4 @@
 import Sound from "@common/Sound";
-import { useState } from "react";
 
 interface TitleProps {
     keyword: string;
