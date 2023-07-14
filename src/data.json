@@ -611,7 +611,7 @@
         "keyword": "security",
         "translate": "an ninh",
         "paragraph_english": "National security is a duty of government",
-        "paragraph_vietnamese": "An nih quốc gia là nhiệm vụ của chính phủ",
+        "paragraph_vietnamese": "An ninh quốc gia là nhiệm vụ của chính phủ",
         "phrases": [
             {
                 "title": "national security",
@@ -800,6 +800,134 @@
             {
                 "title": "guilty about doing something",
                 "content": "có lỗi vì làm gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "profile",
+        "translate": "hồ sơ",
+        "paragraph_english": "I set up a profile on Facebook",
+        "paragraph_vietnamese": "Tôi thiết lặp hồ sơ cá nhân trên Facebook",
+        "phrases": [
+            {
+                "title": "set up a profile",
+                "content": "thiết lập hồ sơ cá nhân"
+            }
+        ]
+    },
+    {
+        "keyword": "select",
+        "translate": "lựa chọn",
+        "paragraph_english": "I will help you select an option for your travel plan",
+        "paragraph_vietnamese": "Em sẽ giúp chị lựa chọn một kế hoạch du lịch",
+        "phrases": [
+            {
+                "title": "select something",
+                "content": "lựa chọn một cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "edit",
+        "translate": "chỉnh sửa",
+        "paragraph_english": "Can you edit my essay?",
+        "paragraph_vietnamese": "Cậu có thể chỉnh sửa bài luận của tớ được không?",
+        "phrases": [
+            {
+                "title": "edit something",
+                "content": "chỉnh sửa một cái gì đó"
+            },
+            {
+                "title": "essay",
+                "content": "bài luận"
+            }
+        ]
+    },
+    {
+        "keyword": "limit",
+        "translate": "giới hạn",
+        "paragraph_english": "Mother limited me to playing once a day",
+        "paragraph_vietnamese": "Mẹ tôi giới hạn tôi chỉ được chơi một lần một ngày",
+        "phrases": [
+            {
+                "title": "limit somebody to something",
+                "content": "giới hạn ai đó trong việc gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "back up",
+        "translate": "sao lưu dữ liệu",
+        "paragraph_english": "You should back up your data",
+        "paragraph_vietnamese": "Cậu nên sao lưu dữ liệu",
+        "phrases": [
+            {
+                "title": "back up the data",
+                "content": "sao lưu dữ liệu"
+            }
+        ]
+    },
+    {
+        "keyword": "data",
+        "translate": "dũ liệu",
+        "paragraph_english": "Scientists gather data for research",
+        "paragraph_vietnamese": "Các nhà khoa học thu thập dữ liệu để nghiên cứu",
+        "phrases": [
+            {
+                "title": "gather data",
+                "content": "thu thập dữ liệu"
+            }
+        ]
+    },
+    {
+        "keyword": "library",
+        "translate": "thư viện",
+        "paragraph_english": "Return the library book in 1 day",
+        "paragraph_vietnamese": "Hãy trả sách thư viện trong vòng một ngày",
+        "phrases": [
+            {
+                "title": "library book",
+                "content": "sách thư viện"
+            }
+        ]
+    },
+    {
+        "keyword": "search",
+        "translate": "tìm kiếm",
+        "paragraph_english": "I search for love",
+        "paragraph_vietnamese": "Tôi tìm kiếm tình yêu",
+        "phrases": [
+            {
+                "title": "search for somebody or something",
+                "content": "tìm kiếm ai đó hoặc cái gì đó"
+            }
+        ]
+    },
+    {
+        "keyword": "standard",
+        "translate": "tiêu chuẩn",
+        "paragraph_english": "All products must meet the quality standards",
+        "paragraph_vietnamese": "",
+        "phrases": [
+            {
+                "title": "quality standard",
+                "content": "các tiêu chuẩn chất lượng"
+            },
+            {
+                "title": "must meet",
+                "content": "đáp ứng, đạt"
+            }
+        ]
+    },
+    {
+        "keyword": "storage",
+        "translate": "kho",
+        "paragraph_english": "The bags are still in storage",
+        "paragraph_vietnamese": "Những chiếc túi vẫn đang nằm trong kho",
+        "phrases": [
+            {
+                "title": "in storage",
+                "content": "trong kho"
             }
         ]
     }

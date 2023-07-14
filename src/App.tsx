@@ -18,8 +18,8 @@ function App() {
         }
 
         setIndex(index + 1);
+        changeValue({ value: '', error: 2 })
     };
-
 
     return (
         <div className="flex items-center justify-center h-[100vh]">
@@ -38,7 +38,7 @@ function App() {
                         !(index === items.length) && (
                             <>
                                 <TitleHomePage changeValue={changeValue} keyword={items[index].keyword} show={show} translate={items[index].translate} />
-                                <FormHomePage handleSubmit={handleSubmit} changeValue={changeValue} error={error} paragraph_english={items[index].paragraph_english} value={value} />
+                                <FormHomePage keyword={items[index].keyword} phrases={items[index].phrases} handleSubmit={handleSubmit} changeValue={changeValue} error={error} paragraph_english={items[index].paragraph_english} value={value} />
                                 <MoreInformationHomePage data={items[index].phrases} />
                                 <div className="pt-[60px]">
                                     <button disabled={loading} className="bg-[green] text-[white]" onClick={handleSubmit}>Submit</button>
