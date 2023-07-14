@@ -1,6 +1,6 @@
 import Sound from "@common/Sound";
 import { handleSound } from "@utils/helper";
-import { DetailedHTMLProps, InputHTMLAttributes, LegacyRef, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 interface FormMainProps {
     changeValue: (_value: Partial<HomePage>) => void;
